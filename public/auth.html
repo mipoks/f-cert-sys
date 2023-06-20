@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Вход</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <script>let loaderStatus</script>
+        <script src="../assets/js/main.js"></script>
+        <script src="../assets/js/header.js"></script>
+        <script src="../assets/js/authorization.js"></script>
+    </head>
+    <body>
+        <header></header>
+        <main class="main-auth">
+            <section class="container-auth">
+                <div class="container-auth__logo">
+                    <img src="../assets/img/authlogo.svg" alt="">
+                </div>
+                <form id="loginForm">
+                    <input id="loginName" type="text" placeholder="Введите почту">
+                    <input id="loginPassword" type="text" placeholder="Введите пароль">
+                    <a href="#">Забыли пароль?</a>
+                    <button type="submit" class="bright-button" style="margin-top: 32px" id="loginButton">Вход</button>
+                </form>
+                <a href="./forum.html" style="padding: 20px; text-align: center"><p>Без логина</p></a>
+            </section>
+            <div class="auth-message">
+                <p></p>
+            </div>
+        </main>
+    </body>
+</html>
